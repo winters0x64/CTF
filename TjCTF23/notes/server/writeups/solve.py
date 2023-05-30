@@ -32,4 +32,7 @@ while True:
         for future in concurrent.futures.as_completed(futures):
             print(future.result())
 
+# Their docker container ain't building for me 
+#  To Do: Find out what the script does
+
 
