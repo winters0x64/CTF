@@ -1,0 +1,3 @@
+Why is it doing mongo_client = MongoClient(connect=False)?
+
+Nothing too much of impact ig...
