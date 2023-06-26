@@ -1,6 +1,4 @@
 # Race condition Challenge
-My first race condition challenge
-
 Okay so here inorder to get the flag we just had to access a user which doesn't exist as can be seen here
 
 ```js

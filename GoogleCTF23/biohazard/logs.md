@@ -1,0 +1,1 @@
+It's an XSS challenge... Couldn't find the flag yet

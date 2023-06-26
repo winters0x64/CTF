@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
+#Basic
 import os
 import sys
 from pathlib import Path
-
 import pi_heif
 from flask import Flask, abort, redirect, render_template, request
 from flask.helpers import url_for
@@ -50,6 +50,7 @@ def post():
 		return render_template("index.html", error="Filename too long")
 	
 	filename = Path(UPLOAD_FOLDER).joinpath("a").with_name(rand_name() + Path(file.filename).suffix)
+	
 	if not is_valid_extension(filename):
 		return render_template("index.html", error="Invalid extension")
 	
