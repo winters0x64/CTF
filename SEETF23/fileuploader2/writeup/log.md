@@ -1,0 +1,1 @@
+Here first we use the given username and password to log in once we are in we'll just upload the sol.svg file and visit the file and we'll get the flag.
